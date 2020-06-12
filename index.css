@@ -101,12 +101,8 @@ body {
   object-fit: cover !important;
 }
 
-.lis-group {
-  background-color: #fff;
-}
-
 .list-group-item {
-  background-color: #5cdb95 !important;
+  background-color: white !important;
 }
 
 .list-group-item:hover {
@@ -143,5 +139,4 @@ body {
 
 .name-logo:hover {
   -webkit-transform: scale(1.2);
-  -webkit-animation: in 1s infinite reverse forwards;
 }
