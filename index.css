@@ -1,0 +1,147 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.navbar {
+  padding: 15px;
+  background-color: #05386b;
+}
+
+/* .navbar-toggle{
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+} */
+
+.navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar a {
+  color: #fff;
+  z-index: 999;
+}
+
+.navbar-toggler span {
+    color: white;
+}
+
+.jumbo-white {
+  background-color: white !important;
+}
+
+.jumbotron { 
+  height: 27rem;
+  text-align: center;
+  background-color: #5cdb95;
+  color: #05386b;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.jumbotron-header {
+    margin-top: 70px;
+}
+
+.name-logo {
+  font-size: 73px;
+}
+
+.name-sentence {
+  padding-top: 20px;
+}
+
+.jumbotron-wrapper {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+.jumbotron-about {
+  padding-top: 9rem;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.divider-left, .divider-right {
+    height: 2px;
+    width: 100px;
+    background-color: #05386b;
+    margin: 0 20px;
+}
+
+.card-wrapper {
+    text-align: center;
+    color: #05386b;
+}
+
+.team-headline {
+  margin: 50px 0 50px;
+  color: #05386b;
+  font-size: 50px;
+}
+
+.card {
+    height: 35rem;
+}
+
+.card img {
+  max-height: 275px;
+  object-fit: cover !important;
+}
+
+.lis-group {
+  background-color: #fff;
+}
+
+.list-group-item {
+  background-color: #5cdb95 !important;
+}
+
+.list-group-item:hover {
+  color: red;
+}
+.list-group-item a {
+    width: 250px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #379683;
+  border-color: #379683;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #8ee4af;
+  border-color: #8ee4af;
+}
+
+.nav-link:hover {
+  color: #5cdb95 !important;
+}
+
+.navbar-brand:hover {
+  color: #5cdb95 !important;
+}
+
+.footer {
+  background-color: #05386b;
+  color: #fff;
+}
+
+.name-logo:hover {
+  -webkit-transform: scale(1.2);
+  -webkit-animation: in 1s infinite reverse forwards;
+}
