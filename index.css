@@ -11,12 +11,6 @@ body {
   background-color: #05386b;
 }
 
-/* .navbar-toggle{
-  background-color: transparent;
-  background-image: none;
-  border: 1px solid transparent;
-} */
-
 .navbar-toggle .icon-bar {
   background-color: #fff;
 }
@@ -30,8 +24,45 @@ body {
     color: white;
 }
 
+.nav-link:hover {
+  color: #5cdb95 !important;
+}
+
+.navbar-brand:hover {
+  color: #5cdb95 !important;
+}
+
+.jumbotron-header {
+  margin-top: 70px;
+}
+
 .jumbo-white {
   background-color: white !important;
+}
+
+.name-logo {
+  font-size: 73px;
+}
+
+.name-logo:hover {
+  -webkit-transform: scale(1.2);
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.divider-left, .divider-right {
+  height: 2px;
+  width: 100px;
+  background-color: #05386b;
+  margin: 0 20px;
+}
+
+.name-sentence {
+  padding-top: 20px;
 }
 
 .jumbotron { 
@@ -41,18 +72,6 @@ body {
   color: #05386b;
   margin-bottom: 0;
   padding-bottom: 0;
-}
-
-.jumbotron-header {
-    margin-top: 70px;
-}
-
-.name-logo {
-  font-size: 73px;
-}
-
-.name-sentence {
-  padding-top: 20px;
 }
 
 .jumbotron-wrapper {
@@ -68,28 +87,15 @@ body {
   padding-top: 9rem;
 }
 
-.divider {
-    display: flex;
-    align-items: center;
-    font-size: 20px;
-}
-
-.divider-left, .divider-right {
-    height: 2px;
-    width: 100px;
-    background-color: #05386b;
-    margin: 0 20px;
-}
-
-.card-wrapper {
-    text-align: center;
-    color: #05386b;
-}
-
 .team-headline {
   margin: 50px 0 50px;
   color: #05386b;
   font-size: 50px;
+}
+
+.card-wrapper {
+  text-align: center;
+  color: #05386b;
 }
 
 .card {
@@ -105,9 +111,6 @@ body {
   background-color: white !important;
 }
 
-.list-group-item:hover {
-  color: red;
-}
 .list-group-item a {
     width: 250px;
 }
@@ -124,19 +127,7 @@ body {
   border-color: #8ee4af;
 }
 
-.nav-link:hover {
-  color: #5cdb95 !important;
-}
-
-.navbar-brand:hover {
-  color: #5cdb95 !important;
-}
-
 .footer {
   background-color: #05386b;
   color: #fff;
-}
-
-.name-logo:hover {
-  -webkit-transform: scale(1.2);
 }
